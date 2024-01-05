@@ -13,17 +13,18 @@ export default {
                 'Soft-violet': 'hsl(277, 64%, 61%)',
 
                 'White': ' hsl(0, 0%, 100%)',
-                'Slightly-transparent-white': ' hsla(0, 0 %, 100 %, 0.75)',
+                'Slightly-transparent-white': 
+                'hsla(0, 0%, 100%, 0.75)',
             },
 
             fontFamily: {
-                Inter: ['Inter', 'sans-serif'],
-                Lexend: ['Lexend Deca', 'sans-serif'],
+                'inter': ['Inter', 'sans-serif'],
+                'lexend': ['Lexend Deca', 'sans-serif'],
             }
 
         },
         screens: {
-            'xs': '375px',
+            'xs': '325px',
             'sm': '640px',
             'md': '768px',
         },
